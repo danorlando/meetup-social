@@ -18,18 +18,23 @@
 		4EFE4B8B17BE879700DD023B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EFE4B8A17BE879700DD023B /* Default-568h@2x.png */; };
 		4EFE4B8E17BE879700DD023B /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EFE4B8C17BE879700DD023B /* MainStoryboard.storyboard */; };
 		4EFE4B9117BE879700DD023B /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE4B9017BE879700DD023B /* MasterViewController.m */; };
-		4EFE4B9417BE879700DD023B /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE4B9317BE879700DD023B /* DetailViewController.m */; };
+		4EFE4BAA17BE978F00DD023B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4EFE4BA917BE978F00DD023B /* CoreLocation.framework */; };
+		4EFE4BB017BEC48C00DD023B /* DetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EFE4BAF17BEC48C00DD023B /* DetailCell.m */; };
+		9DB501111830C11A002D0A9D /* Group.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB501101830C11A002D0A9D /* Group.m */; };
+		9DB501151830C1EC002D0A9D /* MeetupCommunicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB501141830C1EC002D0A9D /* MeetupCommunicator.m */; };
+		9DB501181830C3BB002D0A9D /* GroupBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB501171830C3BB002D0A9D /* GroupBuilder.m */; };
+		9DB5011C1830C7A3002D0A9D /* MeetupManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9DB5011B1830C7A3002D0A9D /* MeetupManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		4EFE4B7117BE879700DD023B /* Read JSON.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Read JSON.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EFE4B7117BE879700DD023B /* MeetupSocial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetupSocial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EFE4B7417BE879700DD023B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4EFE4B7617BE879700DD023B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4EFE4B7817BE879700DD023B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4EFE4B7C17BE879700DD023B /* Read JSON-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Read JSON-Info.plist"; sourceTree = "<group>"; };
+		4EFE4B7C17BE879700DD023B /* MeetupSocial-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MeetupSocial-Info.plist"; sourceTree = "<group>"; };
 		4EFE4B7E17BE879700DD023B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4EFE4B8017BE879700DD023B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4EFE4B8217BE879700DD023B /* Read JSON-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Read JSON-Prefix.pch"; sourceTree = "<group>"; };
+		4EFE4B8217BE879700DD023B /* MeetupSocial-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeetupSocial-Prefix.pch"; sourceTree = "<group>"; };
 		4EFE4B8317BE879700DD023B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		4EFE4B8417BE879700DD023B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		4EFE4B8617BE879700DD023B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
@@ -38,8 +43,19 @@
 		4EFE4B8D17BE879700DD023B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		4EFE4B8F17BE879700DD023B /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		4EFE4B9017BE879700DD023B /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		4EFE4B9217BE879700DD023B /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		4EFE4B9317BE879700DD023B /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		4EFE4BA917BE978F00DD023B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4EFE4BAE17BEC48C00DD023B /* DetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailCell.h; sourceTree = "<group>"; };
+		4EFE4BAF17BEC48C00DD023B /* DetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailCell.m; sourceTree = "<group>"; };
+		9DB5010F1830C11A002D0A9D /* Group.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Group.h; sourceTree = "<group>"; };
+		9DB501101830C11A002D0A9D /* Group.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Group.m; sourceTree = "<group>"; };
+		9DB501121830C177002D0A9D /* MeetupCommunicatorDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetupCommunicatorDelegate.h; sourceTree = "<group>"; };
+		9DB501131830C1EC002D0A9D /* MeetupCommunicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetupCommunicator.h; sourceTree = "<group>"; };
+		9DB501141830C1EC002D0A9D /* MeetupCommunicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetupCommunicator.m; sourceTree = "<group>"; };
+		9DB501161830C3BB002D0A9D /* GroupBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupBuilder.h; sourceTree = "<group>"; };
+		9DB501171830C3BB002D0A9D /* GroupBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupBuilder.m; sourceTree = "<group>"; };
+		9DB501191830C778002D0A9D /* MeetupManagerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetupManagerDelegate.h; sourceTree = "<group>"; };
+		9DB5011A1830C7A3002D0A9D /* MeetupManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeetupManager.h; sourceTree = "<group>"; };
+		9DB5011B1830C7A3002D0A9D /* MeetupManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeetupManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EFE4BAA17BE978F00DD023B /* CoreLocation.framework in Frameworks */,
 				4EFE4B7517BE879700DD023B /* UIKit.framework in Frameworks */,
 				4EFE4B7717BE879700DD023B /* Foundation.framework in Frameworks */,
 				4EFE4B7917BE879700DD023B /* CoreGraphics.framework in Frameworks */,
@@ -68,7 +85,7 @@
 		4EFE4B7217BE879700DD023B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4EFE4B7117BE879700DD023B /* Read JSON.app */,
+				4EFE4B7117BE879700DD023B /* MeetupSocial.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -76,6 +93,7 @@
 		4EFE4B7317BE879700DD023B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4EFE4BA917BE978F00DD023B /* CoreLocation.framework */,
 				4EFE4B7417BE879700DD023B /* UIKit.framework */,
 				4EFE4B7617BE879700DD023B /* Foundation.framework */,
 				4EFE4B7817BE879700DD023B /* CoreGraphics.framework */,
@@ -91,20 +109,31 @@
 				4EFE4B8C17BE879700DD023B /* MainStoryboard.storyboard */,
 				4EFE4B8F17BE879700DD023B /* MasterViewController.h */,
 				4EFE4B9017BE879700DD023B /* MasterViewController.m */,
-				4EFE4B9217BE879700DD023B /* DetailViewController.h */,
-				4EFE4B9317BE879700DD023B /* DetailViewController.m */,
+				4EFE4BAE17BEC48C00DD023B /* DetailCell.h */,
+				4EFE4BAF17BEC48C00DD023B /* DetailCell.m */,
 				4EFE4B7B17BE879700DD023B /* Supporting Files */,
+				9DB5010F1830C11A002D0A9D /* Group.h */,
+				9DB501101830C11A002D0A9D /* Group.m */,
+				9DB501121830C177002D0A9D /* MeetupCommunicatorDelegate.h */,
+				9DB501131830C1EC002D0A9D /* MeetupCommunicator.h */,
+				9DB501141830C1EC002D0A9D /* MeetupCommunicator.m */,
+				9DB501161830C3BB002D0A9D /* GroupBuilder.h */,
+				9DB501171830C3BB002D0A9D /* GroupBuilder.m */,
+				9DB501191830C778002D0A9D /* MeetupManagerDelegate.h */,
+				9DB5011A1830C7A3002D0A9D /* MeetupManager.h */,
+				9DB5011B1830C7A3002D0A9D /* MeetupManager.m */,
 			);
-			path = "Read JSON";
+			name = "Read JSON";
+			path = "Browse Meetup";
 			sourceTree = "<group>";
 		};
 		4EFE4B7B17BE879700DD023B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4EFE4B7C17BE879700DD023B /* Read JSON-Info.plist */,
+				4EFE4B7C17BE879700DD023B /* MeetupSocial-Info.plist */,
 				4EFE4B7D17BE879700DD023B /* InfoPlist.strings */,
 				4EFE4B8017BE879700DD023B /* main.m */,
-				4EFE4B8217BE879700DD023B /* Read JSON-Prefix.pch */,
+				4EFE4B8217BE879700DD023B /* MeetupSocial-Prefix.pch */,
 				4EFE4B8617BE879700DD023B /* Default.png */,
 				4EFE4B8817BE879700DD023B /* Default@2x.png */,
 				4EFE4B8A17BE879700DD023B /* Default-568h@2x.png */,
@@ -115,9 +144,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4EFE4B7017BE879700DD023B /* Read JSON */ = {
+		4EFE4B7017BE879700DD023B /* MeetupSocial */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4EFE4B9717BE879700DD023B /* Build configuration list for PBXNativeTarget "Read JSON" */;
+			buildConfigurationList = 4EFE4B9717BE879700DD023B /* Build configuration list for PBXNativeTarget "MeetupSocial" */;
 			buildPhases = (
 				4EFE4B6D17BE879700DD023B /* Sources */,
 				4EFE4B6E17BE879700DD023B /* Frameworks */,
@@ -127,9 +156,9 @@
 			);
 			dependencies = (
 			);
-			name = "Read JSON";
+			name = MeetupSocial;
 			productName = "Read JSON";
-			productReference = 4EFE4B7117BE879700DD023B /* Read JSON.app */;
+			productReference = 4EFE4B7117BE879700DD023B /* MeetupSocial.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -141,7 +170,7 @@
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "TAMIM Ziad";
 			};
-			buildConfigurationList = 4EFE4B6C17BE879700DD023B /* Build configuration list for PBXProject "Read JSON" */;
+			buildConfigurationList = 4EFE4B6C17BE879700DD023B /* Build configuration list for PBXProject "MeetupSocial" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -153,7 +182,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4EFE4B7017BE879700DD023B /* Read JSON */,
+				4EFE4B7017BE879700DD023B /* MeetupSocial */,
 			);
 		};
 /* End PBXProject section */
@@ -178,10 +207,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DB501151830C1EC002D0A9D /* MeetupCommunicator.m in Sources */,
 				4EFE4B8117BE879700DD023B /* main.m in Sources */,
 				4EFE4B8517BE879700DD023B /* AppDelegate.m in Sources */,
+				9DB501111830C11A002D0A9D /* Group.m in Sources */,
+				9DB501181830C3BB002D0A9D /* GroupBuilder.m in Sources */,
+				9DB5011C1830C7A3002D0A9D /* MeetupManager.m in Sources */,
 				4EFE4B9117BE879700DD023B /* MasterViewController.m in Sources */,
-				4EFE4B9417BE879700DD023B /* DetailViewController.m in Sources */,
+				4EFE4BB017BEC48C00DD023B /* DetailCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,9 +300,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Read JSON/Read JSON-Prefix.pch";
-				INFOPLIST_FILE = "Read JSON/Read JSON-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Browse Meetup/MeetupSocial-Prefix.pch";
+				INFOPLIST_FILE = "Browse Meetup/MeetupSocial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = MeetupSocial;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -278,9 +312,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Read JSON/Read JSON-Prefix.pch";
-				INFOPLIST_FILE = "Read JSON/Read JSON-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "Browse Meetup/MeetupSocial-Prefix.pch";
+				INFOPLIST_FILE = "Browse Meetup/MeetupSocial-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = MeetupSocial;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -288,7 +323,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4EFE4B6C17BE879700DD023B /* Build configuration list for PBXProject "Read JSON" */ = {
+		4EFE4B6C17BE879700DD023B /* Build configuration list for PBXProject "MeetupSocial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EFE4B9517BE879700DD023B /* Debug */,
@@ -297,13 +332,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4EFE4B9717BE879700DD023B /* Build configuration list for PBXNativeTarget "Read JSON" */ = {
+		4EFE4B9717BE879700DD023B /* Build configuration list for PBXNativeTarget "MeetupSocial" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4EFE4B9817BE879700DD023B /* Debug */,
 				4EFE4B9917BE879700DD023B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
